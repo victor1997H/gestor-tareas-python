@@ -15,8 +15,12 @@ def main():
             nueva_tarea = input("Escribe la  tarea: ")
             tareas.append(nueva_tarea)
             print("¡Tarea agregada exitosamente!")
+    
         elif opcion == "2":
-            pass # Aquí trabajará el Estudiante A
+            print("--- TAREAS PENDIENTES ---")
+            for i, tarea in enumerate(tareas):
+                print(f"{i + 1}. {tarea}")
+            
         elif opcion == "3":
             print("Saliendo del programa...")
             break
