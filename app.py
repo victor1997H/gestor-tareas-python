@@ -4,7 +4,7 @@ def mostrar_menu():
     print("--- GESTOR DE TAREAS ---")
     print("1. Agregar tarea")
     print("2. Mostrar tareas")
-    print("Cerrando aplicación... Adiós")
+    print("3. Salir")
 
 def main():
     while True:
@@ -18,7 +18,7 @@ def main():
         elif opcion == "2":
             pass # Aquí trabajará el Estudiante A
         elif opcion == "3":
-            print("Saliendo del programa...")
+            print("Cerrando aplicación... Adiós")
             break
         else:
             print("Opción no válida.")
