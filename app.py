@@ -4,7 +4,7 @@ def mostrar_menu():
     print("--- GESTOR DE TAREAS ---")
     print("1. Agregar tarea")
     print("2. Mostrar tareas")
-    print("3. Salir")
+    print("Cerrando aplicación... Adiós")
 
 def main():
     while True:
