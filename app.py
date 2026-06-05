@@ -22,7 +22,7 @@ def main():
                 print(f"{i + 1}. {tarea}")
             
         elif opcion == "3":
-            print("Saliendo del programa...")
+            print("¡Hasta pronto!")
             break
         else:
             print("Opción no válida.")
