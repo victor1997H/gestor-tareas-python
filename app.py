@@ -18,7 +18,7 @@ def main():
         elif opcion == "2":
             pass # Aquí trabajará el Estudiante A
         elif opcion == "3":
-            print("Cerrando aplicación... Adiós")
+            print("Cerrando aplicación... Adióssss")
             break
         else:
             print("Opción no válida.")
