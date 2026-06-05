@@ -12,7 +12,7 @@ def main():
         opcion = input("Elige una opción: ")
         
         if opcion == "1":
-            nueva_tarea = input("Escribe la nueva tarea: ")
+            nueva_tarea = input("Escribe la  tarea: ")
             tareas.append(nueva_tarea)
             print("¡Tarea agregada exitosamente!")
         elif opcion == "2":
