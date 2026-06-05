@@ -1,7 +1,7 @@
 tareas = []
 
 def mostrar_menu():
-    print("--- GESTOR DE TAREAS ---")
+    print("*** SUPER GESTOR DE TAREAS ***")
     print("1. Agregar tarea")
     print("2. Mostrar tareas")
     print("Cerrando aplicación... Adiós")
