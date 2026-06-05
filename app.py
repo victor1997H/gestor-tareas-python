@@ -12,7 +12,9 @@ def main():
         opcion = input("Elige una opción: ")
         
         if opcion == "1":
-            pass # Aquí trabajará el Estudiante B
+            nueva_tarea = input("Escribe la  tarea: ")
+            tareas.append(nueva_tarea)
+            print("¡Tarea agregada exitosamente!")
         elif opcion == "2":
             pass # Aquí trabajará el Estudiante A
         elif opcion == "3":
