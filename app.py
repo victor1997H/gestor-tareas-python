@@ -1,10 +1,10 @@
 tareas = []
 
 def mostrar_menu():
-    print("--- GESTOR DE TAREAS ---")
+    print("*** SUPER GESTOR DE TAREAS ***")
     print("1. Agregar tarea")
     print("2. Mostrar tareas")
-    print("3. Salir")
+    print("Cerrando aplicación... Adiós")
 
 def main():
     while True:
@@ -15,10 +15,14 @@ def main():
             nueva_tarea = input("Escribe la  tarea: ")
             tareas.append(nueva_tarea)
             print("¡Tarea agregada exitosamente!")
+    
         elif opcion == "2":
-            pass # Aquí trabajará el Estudiante A
+            print("--- TAREAS PENDIENTES ---")
+            for i, tarea in enumerate(tareas):
+                print(f"{i + 1}. {tarea}")
+            
         elif opcion == "3":
-            print("Cerrando aplicación... Adióssss")
+            print("¡Hasta pronto!")
             break
         else:
             print("Opción no válida.")
